@@ -1,4 +1,4 @@
-Code for "Abiotic factors modify ponderosa pine regeneration outcomes after high-severity fire"
+# Code for "Abiotic factors modify ponderosa pine regeneration outcomes after high-severity fire"
 
 Publisher link: https://link.springer.com/article/10.1007/s10021-024-00911-2
 
@@ -9,6 +9,7 @@ Data associated with the project is described below and can be downloaded from D
 Created by Kevin G. Willson
 
 Code:
+
 1 - Model Selection.Rmd = Code for model parameterization and selection
 
 2 - Model Extrapolation.R = Code for extrapolating final model estimates across 257 1-ha patches
