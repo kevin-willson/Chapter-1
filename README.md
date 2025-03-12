@@ -8,9 +8,13 @@ Created by Kevin G. Willson
 
 Code:
 1 - Model Selection.Rmd = Code for model parameterization and selection
+
 2 - Model Extrapolation.R = Code for extrapolating final model estimates across 257 1-ha patches
+
 3 - Distance only model parameterization and extrapolation.R = Code for parameterizing and extrapolating distance-only model estimates across 257 1-ha patches
+
 4a - Figures Script.R = Code to create figures 2 and 3 in the manuscript
+
 4b - Tables and misc results section stats code.R = Code to gather data for all tables and miscellaneous statistics referenced in the results section 
 
 Dataframes:
