@@ -4,7 +4,7 @@ Publisher link: https://link.springer.com/article/10.1007/s10021-024-00911-2
 
 Read-only link: https://rdcu.be/dHXJb
 
-Data associated with the project can be found on Dryad: Willson, Kevin; Hurteau, Matthew (2024). Trees have similar growth responses to first-entry fires and reburns following long-term fire exclusion [Dataset]. Dryad. https://doi.org/10.5061/dryad.6djh9w18z
+Data associated with the project can be found on Dryad: Willson, Kevin; Hurteau, Matthew (2024). Abiotic factors modify ponderosa pine regeneration outcomes after high-severity fire [Dataset]. Dryad. https://doi.org/10.5061/dryad.2547d7wxh
 
 Created by Kevin G. Willson
 
