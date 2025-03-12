@@ -8,7 +8,7 @@ Data associated with the project is described below and can be downloaded from D
 
 Created by Kevin G. Willson
 
-Code:
+## Code
 
 1 - Model Selection.Rmd = Code for model parameterization and selection
 
@@ -20,7 +20,7 @@ Code:
 
 4b - Tables and misc results section stats code.R = Code to gather data for all tables and miscellaneous statistics referenced in the results section 
 
-Data:
+## Data
 
 final_model_df.csv - This dataframe contains regeneration density data calculated by binning transect data into 10x10 m bins. This dataframe was used to parameterize candidate logistic and general linear models for model selection. Columns are as follows: "Fire" = Fire footprint where bin occurred, "Patch" = the patch within the fire footprint that the bin occurred, "Transect" = the transect number within the patch/fire footprint that the bin occurred in, "Distance" = the distance of the bin from the start of the transect at the edge of intact forest (in meters), "n" = number of regenerated ponderosa pine individuals occurred within the bin, "Seedling_density" = the density of regeneration within each bin (= n*100), "Combined_slope" = hillslope paired with slope position of the transect relative to the intact forest with negative values indictating transects going downhill from intact forest and positive values indicating transects going uphill of intact forest, "Aspect" = aspect of the transect associated with that bin, "Slope_Angle" = hillslope of the transect associated with that bin, "Tree_Height" = Average height of 2-3 measured trees within the nested plot next to the transect of the bin (meters), "Prevailing_Wind" = a binary yes/no of whether the transect was downwind (Yes) or upwind (No) of intact forest, "Cont_Prevailing_Wind" = continuous variable of the transect direction from intact forest relative to the prevailing wind with areas upwind of intact forest marked as 0 because of improved model performance, "NestedDensity" = the density of trees in the nested plot paired with the transect (trees/ha), "Ponderosa_overstory_density" = the density of ponderosa pine trees larger than 25 cm dbh in the nested plot paired with the transect (trees/ha), "Elevation" = elevation of plot location (m). 
 
@@ -37,13 +37,22 @@ Plot_data.xlsx - This dataframe contains the plot and transect-level data used t
 
 Transect_Data_5-25-21.xlsx - This dataframe contains the locations of all measured regeneration that occurred within transects. This dataframe was used to calculate regeneration density that was the response variable of the GLMs. Columns are as follows: "Fire" = Fire footprint where the transect occurred, "Patch" = the patch within the fire footprint that the transect occurred, "Transect" = the transect number within the patch/fire footprint, "Regen_code" = the number given for each individual recorded in a transect with "T" in front indicating that the individual was cored, "Vertical_Distance" = the distance the individual occurred from the start of the transect, "Horizontal_Distance" = the distance the individual occurred from the transect centerline, "DBH" = diameter at breast height of the individual with no value indicating the individual was shorter than 1.37 m. 
 
-Spatial Data:
+## Spatial Data
+
 All_Fires_aspect_UTM.tif - 10 meter aspect raster across all five fire footprints in UTM coordinates
+
 All_Fires_DEM_UTM.tif - 10 meter elevation raster across all five fire footprints in UTM coordinates
+
 All_Fires_Shapefile.shp - polygon shapefile of fire boundaries for all five fire footprints
+
 GilaTEUI.shp - polygon shapefile of Terrestruak Ecological Unit Inventory vegetation types across the Gila national forest
+
 high_severity_spots_shapefile_12-7-21.shp - polygon shapefile of all high-severity patches in the five fire footprints
+
 high_severity_spots_shapefile_12-7-21_raster.tif - 10x10m raster of all high-severity pixels in the five fire footprints
+
 HS_polygons_10m.shp - 10x10m polygon shapefile of all high-severity pixels in the five fire footprints
+
 non_HS_PIPO_polygons_30m_12-21-21.shp - 30x30m polygon shapefile of intact forest pixels that contained ponderosa pine trees
+
 pondo_firefootprint.shp - polygon shapefile of intact forest area that contained ponderosa pine trees
