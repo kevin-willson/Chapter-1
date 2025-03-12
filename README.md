@@ -1,6 +1,7 @@
 Data and Code for "Abiotic factors modify ponderosa pine regeneration outcomes after high-severity fire"
 
-Publisher link:https://link.springer.com/article/10.1007/s10021-024-00911-2
+Publisher link: https://link.springer.com/article/10.1007/s10021-024-00911-2
+
 Read-only link: https://rdcu.be/dHXJb
 
 Created by Kevin G. Willson
