@@ -4,6 +4,8 @@ Publisher link: https://link.springer.com/article/10.1007/s10021-024-00911-2
 
 Read-only link: https://rdcu.be/dHXJb
 
+Data associated with the project can be found on Dryad: https://datadryad.org/dataset/doi:10.5061/dryad.6djh9w18z
+
 Created by Kevin G. Willson
 
 Code:
